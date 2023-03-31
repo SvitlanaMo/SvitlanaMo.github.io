@@ -246,6 +246,13 @@ Display Styles
 .d-flex{
   display: flex;
 }
+
+.d-flex-align-center{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 @media (min-width: 601px) {
   .d-flex-align-center{
     display: flex;
@@ -253,12 +260,6 @@ Display Styles
     flex-direction: row;
   }
 )
-
-.d-flex-align-center{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 
 .d-flex-align-center-column{
   display: flex;
